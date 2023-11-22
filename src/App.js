@@ -30,19 +30,19 @@ function App() {
     <Router>
     <div className="App">
         <div className="sidebar">
-            {renderIconText(FaHome, 'Home', '/site/')}
-            {renderIconText(FaUser, 'Profile', '/site/profile')}
-            {renderIconText(FaFolder, 'Projects', '/site/projects')}
+            {renderIconText(FaHome, 'Home', '/')}
+            {renderIconText(FaUser, 'Profile', '/profile')}
+            {renderIconText(FaFolder, 'Projects', '/projects')}
             <div className="space"></div>
             {renderIconText(FaGithub, 'GitHub', '', true, 'https://github.com/Rajora0')}
             {renderIconText(FaLinkedin, 'LinkedIn', '', true, 'https://www.linkedin.com/in/rafael-rangel-841b2747/')}
         </div>
         <div className="main-content">
             <Switch>
-                <Route exact path="/site/" component={Base} />
-                <Route exact path="/site/profile" component={Profile} />
-                <Route exact path="/site/projects" component={Projects} />
-                <Route exact path="/site/:id" component={MarkdownPost} />
+                <Route exact path="/" component={Base} />
+                <Route exact path="/profile" component={Profile} />
+                <Route exact path="/projects" component={Projects} />
+                <Route exact path="/:id" component={MarkdownPost} />
             </Switch>
         </div>
     </div>
@@ -55,7 +55,7 @@ const Base = () => {
 
   useEffect(() => {
     // Load JSON file
-    axios.get('https://raw.githubusercontent.com/Rajora0/site/master/public/articles.json')
+    axios.get('https://raw.githubusercontent.com/Rajora0/site/main/public/articles.json')
       .then(response => {
         const data = response.data;
         const lastThreePosts = data.slice(Math.max(data.length - 3, 0)); // get last 3 posts
@@ -319,7 +319,7 @@ const FileList = ({ files }) => {
       {files.map((file, index) => (
         <li key={index}>
           <img className='project-card-img' src={file.imgSrc} alt={file.title} />
-          <h2><Link to={`/site/${file.name}`}>{file.title}</Link></h2>
+          <h2><Link to={`/${file.name}`}>{file.title}</Link></h2>
           <p>{file.description}</p>
         </li>
       ))}
@@ -359,9 +359,8 @@ const ProjectCard = ({file}) => {
 
 const MarkdownPost = ({ match }) => {
   const [post, setPost] = useState("");
-
   useEffect(() => {
-    axios.get(`https://raw.githubusercontent.com/Rajora0/site/gh-pages/markdown/${match.params.id}.md`)
+    axios.get(`https://raw.githubusercontent.com/Rajora0/site/main/public/markdown/${match.params.id}.md`)
       .then(res => setPost(res.data));
   }, [match]);
 
