@@ -1,0 +1,44 @@
+[
+    {
+      "name": "artigo1",
+      "title": "Sentiment Analysis: Concept, Implementation and Usage",
+      "description": "Sentiment analysis, a field of computational linguistics and AI, involves identifying and extracting subjective information from texts. It has diverse applications such as brand monitoring and analyzing product reviews, and can be implemented using programming languages like Python.",
+      "imgSrc": "https://www.aimtechnologies.co/wp-content/uploads/2023/08/Arabic-Sentiment-Analysis-2.jpg"
+    },
+    {
+      "name": "artigo2",
+      "title": "Pipeline of Machine Learning with Pycaret: An In-Depth Walkthrough with Example Implementation",
+      "description": "Pycaret is a user-friendly Python library for implementing Machine Learning pipelines, streamlining tasks from data preparation to model deployment. The example demonstrates creating a full pipeline, including training, tuning, evaluation, and deployment of a logistic regression model on the 'Iris' dataset.",
+      "imgSrc": "https://raw.githubusercontent.com/pycaret/pycaret/master/docs/images/logo.png"
+    },
+    {
+      "name": "artigo3",
+      "title": "Machine Learning Models with Scikit-Learn: A Comprehensive Guide For Beginners",
+      "description": "Scikit-learn is a popular Python library for constructing various machine learning models such as linear regression, SVM, and random forest. This guide illustrates a basic implementation of a linear regression model using Scikit-learn.",
+      "imgSrc": "https://opengraph.githubassets.com/9fcbea103e3f2aa1697446d9248ac63889ff65fdd9eaa9523582b65296bbc514/scikit-learn/scikit-learn.github.io"
+    },
+    {
+        "name": "artigo4",
+        "title": "Machine Learning Models Using Keras and TensorFlow ",
+        "description": "This article explores TensorFlow and Keras, two powerful tools in machine learning, including their history and practical applications. It also provides an example of implementing a machine learning model using these libraries.",
+        "imgSrc": "https://miro.medium.com/v2/resize:fit:1400/0*BrC7o-KTt54z948C.jpg"
+    },
+    {
+        "name": "artigo5",
+        "title": "PyTorch Models: A Comprehensive Guide with Implementation Examples",
+        "description": "PyTorch is a versatile open-source deep learning platform used for developing and training neural network models. This article focuses on the basics of PyTorch models, including a step-by-step guide to implementing a simple neural network model.",
+        "imgSrc": "https://miro.medium.com/v2/resize:fit:691/1*VSQ0XEywxSgZBwW05GsZtw.png"
+    },
+    {
+        "name": "artigo6",
+        "title": "Image Classification Models: An Overview with Example Implementation",
+        "description": "Image classification, a vital task in machine learning, utilizes models ranging from traditional machine learning algorithms to advanced deep learning ones like Convolutional Neural Networks (CNNs). The choice of model is based on the task's complexity and available data, with transfer-learning-based deep learning models often delivering superior performance.",
+        "imgSrc": "https://miro.medium.com/v2/resize:fit:1400/1*kWVIUz9udOo_t_tpjj8C_g.jpeg"
+    },
+    {
+        "name": "artigo7",
+        "title": "Generating SSH Keys and Adding them to GitHub",
+        "description": "This guide explains how to generate SSH keys, add them to the SSH agent and your GitHub account, and how to test the SSH connection, allowing password-less authentication on GitHub.",
+        "imgSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--xZeBwcrC--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/a7cpjomaxoe5qd7rn4ld.png"
+    }
+]
