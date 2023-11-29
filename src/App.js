@@ -338,7 +338,7 @@ const ProjectCard = ({file}) => {
       <div>
           <img className='project-card-img' src={file.imgSrc} alt={file.title} />
           <h2>
-              <Link to={`/site/${file.name}`}>
+              <Link to={`/${file.name}`}>
                   {file.title}
               </Link>
           </h2> 
