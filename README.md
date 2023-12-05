@@ -18,7 +18,7 @@ The Awesome Blog project is a React application that provides a platform for exp
 
 The project follows a typical React application structure:
 
-my-react-app/
+`my-react-app/
 ├── node_modules/
 ├── public/
 │ ├── index.html
@@ -44,7 +44,7 @@ my-react-app/
 ├── .gitignore
 ├── package.json
 ├── README.md
-└── ...
+└── ...`
 
 - `public/`: Contains public files accessible by the browser.
 - `src/`: Contains the source code of the application.
