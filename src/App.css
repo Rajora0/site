@@ -4,6 +4,7 @@
 
 .content {
   flex-grow: 1; 
+  padding: 5% 10% 5% 10%;
 }
 
 .main-content {
@@ -90,6 +91,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  padding: 5% 10% 5% 10%;
 }
 
 .blog-title {
@@ -192,6 +194,7 @@
 .profile-content {
   width: 80%;
   margin: 0 auto;
+  padding: 5% 10% 5% 10%;
 }
 
 /* CSS PROFILE */
@@ -256,8 +259,8 @@
 }
 
 .artigos{
-  border-width: 10px; /* 20% não é suportado em bordas, ajustar conforme necessidade */
-  padding: 3%;
+  border-width: 20px; /* 20% não é suportado em bordas, ajustar conforme necessidade */
+  padding: 5% 10% 5% 10%;
 }
 
 .file-list {
