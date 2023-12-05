@@ -59,8 +59,8 @@ my-react-app/
 
 To run the project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/seu-username/awesome-blog.git`
-2. Navigate to the project directory: `cd awesome-blog`
+1. Clone the repository: `git clone git@github.com:Rajora0/site.git`
+2. Navigate to the project directory: `cd site`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
 5. Open your browser and visit `http://localhost:3000` to view the application.
